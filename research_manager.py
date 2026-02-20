@@ -85,10 +85,9 @@ class ResearchManager:
             input,
         )
 
-
-
         print("Finished writing report")
         return result.final_output_as(ReportData)
+    
     
     async def send_email(self, report: ReportData) -> None:
         print("Writing email...")

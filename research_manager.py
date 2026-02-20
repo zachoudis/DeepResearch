@@ -85,6 +85,8 @@ class ResearchManager:
             input,
         )
 
+
+
         print("Finished writing report")
         return result.final_output_as(ReportData)
     
